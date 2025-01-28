@@ -1,0 +1,80 @@
+html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background: url('https://i.etsystatic.com/23444619/r/il/6a2b50/2958612098/il_794xN.2958612098_l692.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+div#content{
+    padding: 5vh;
+    width: 100vw;
+    background-color: rgba(0,0,0, .80);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: white;
+    max-width: 35vw;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    gap: 1vw;
+}
+
+button{
+    height: 10vh;
+    width: 9vw;
+    background-color: rgba(0,0,0, .70);
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    border-bottom: none;
+    border-bottom-right-radius: 0px ;
+    border-bottom-left-radius: 0px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    transform: scale(1.1,1.1)
+    translateY(-3.6px)    
+}
+
+button:active{
+    background-color: rgba(255, 255, 255, .10);
+}
+
+div.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+img.picture{
+    height: 40vh;
+    border-radius: 16px;
+    border: 2px solid grey;
+}
